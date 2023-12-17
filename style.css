@@ -1,0 +1,100 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+.product-card {
+  width: 450px;
+  border: 1px solid #000;
+}
+.bestseller {
+  background-color: #fffa87;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  position: absolute;
+  top: 30px;
+  left: 9px;
+  width: 100px;
+  height: 20px;
+}
+.discount-badge {
+  background-color: #ee1212;
+  color: #fffcfc;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 380px;
+}
+.product-add-to-cart-container {
+  color: #fffcfc;
+  background-color: #ee1212;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 50px;
+  position: absolute;
+  top: 80px;
+  left: 9px;
+  width: 100px;
+  height: 20px;
+}
+.product-more-info {
+  color: #808080;
+  text-decoration: underline;
+  margin: 20px;
+}
+.add-to-cart-button {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  position: absolute;
+  position: absolute;
+  top: 655px;
+  left: 330px;
+}
+.post-box {
+  color: #32840c;
+}
+.info-underline {
+  text-decoration: underline;
+  color: #32840c;
+  position: absolute;
+  top: 770px;
+  left: 390px;
+}
+.product-image-container {
+  height: 350px;
+  text-align: center;
+}
+.info-post-box {
+  background-color: #cbe7bd;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product-price-container {
+  background-color: #ee121240;
+  margin: 20px;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.headline-subtext {
+  margin: 20px;
+}
+.product-price {
+  font-size: 30px;
+}
